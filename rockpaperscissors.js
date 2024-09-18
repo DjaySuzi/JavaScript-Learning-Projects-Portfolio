@@ -9,14 +9,14 @@ const getUserChoice = userInput => {
   if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
   return userInput
  } else {
-  console.log("That's not a valid input.")
+  console.log("That's not a valid input.");
  }
 };
 */
 
 //Get the computer's choice. Math.random to generate odds * 3 because 3 choices. Use Math.floor to round down to whole number. Make funcion because MATH.
 const getComputerChoice = () => {
-  randomNumber = Math.floor(Math.random() * 3)
+  randomNumber = Math.floor(Math.random() * 3);
   switch (randomNumber){
   case 0:
   return 'rock';
