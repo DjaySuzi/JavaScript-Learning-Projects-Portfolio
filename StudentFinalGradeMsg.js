@@ -27,7 +27,7 @@ switch (true) {
 
 //boolean function for passing
 function hasPassingGrade(score) {
-  return getGrade(score) !== "F";
+  return getGrade(score) !== 'F';
 }
 
 //1. student personalized message based on results. Use prior functions in message.
